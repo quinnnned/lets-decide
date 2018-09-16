@@ -1,0 +1,26 @@
+{
+  "name": "rancor",
+  "version": "0.1.0",
+  "main": "src/server.js",
+  "private": true,
+  "homepage": "localhost:3000/public",
+  "dependencies": {
+    "@material-ui/core": "^3.0.1",
+    "@material-ui/icons": "^3.0.1",
+    "micro": "^9.3.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "micro",
+    "dev:server": "micro-dev",
+    "dev:browser": "cross-env PORT=80 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "micro-dev": "^3.0.0"
+  }
+}
